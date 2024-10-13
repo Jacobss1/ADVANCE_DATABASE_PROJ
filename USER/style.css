@@ -1,0 +1,207 @@
+*{
+    font-family: "ABeeZee", sans-serif;
+}
+
+form .form-control{
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: 23%;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+   
+    border-radius: 10px;
+}
+.d-flex .btn{
+    margin-top: 50px;
+    background-color: white;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.d-flex .btn:hover{
+    background-color: lightgreen;
+}
+h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+    color: lightgreen;
+}
+h5{
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+    color: lightgreen;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgba(144, 238, 144, 0.301);
+}
+.navbar a{
+    font-weight: bold;
+}
+.navbar ul{
+    margin-left: 45%;
+    gap: 25px;
+}
+.navbar-brand{
+    margin-left: 15%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+a embed{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-task{
+    margin: auto;
+    margin-left: -15px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.nav-task:hover{
+    font-size: 20px;
+}
+
+.container1 .card{
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.list-unstyled a{
+    text-decoration: none;
+}
+
+.How{
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.How h3{
+    text-align: center;
+}
+.How h5{
+    font-weight: 400;
+    text-align: center;
+}
+.How img{
+    width: 50px;
+    height: 50px;
+}
+.page{
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(29, 31, 31);
+}
+
+.news{
+    height: 50%;
+    background-color: #252b27;
+    color: #fff;
+    bottom: 0;
+}
+.news h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.news .row{
+    margin-top: 20px;
+}
+
+#choose h5{
+    font-family: "Lobster", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+    color: rgb(3, 3, 3);
+}
+
+.Popular h3{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.Task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.Task a{
+    width: 120px;
+    height: 40px;
+    padding: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    text-decoration: none;
+}
+.Task a:hover {
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+    background-color: lightgreen;
+}
+
+.Task .card{
+    width: 300px;
+}
+        
+.search{
+    background-color: lightgreen;
+    background: linear-gradient(to right,#c6c0c0,#a57474);
+    background: url('assets/bg.svg') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    width: 80%;
+   margin-left: 150px;
+   border-radius: 20px;
+   justify-content: space-around;
+   text-align: center;
+    margin: auto;
+}
+
+.search h1{
+    margin-top: 20%;
+}
+
+.searchText {
+    margin-bottom: 30px; /* Adds space between the text and the search bar */
+    font-size: 4em;
+    color: lightgreen;
+}
+.d-flex .form-control{
+    margin-left: 0%;
+    height: 55px;
+    width: 100%; /* Adjust width of the search bar */
+}
+
+.accordion{
+    text-align: center;
+    margin-left: 30%;
+}
+.accordion-body .card{
+    align-items: center;
+    margin-left: 23%;
+}
+
+li img{
+    margin-bottom: 18px;
+    width: 22px;
+    height: 22px;
+    
+}
+.navbar ul li .nav-link{
+    margin-top: 16px;
+}
+
